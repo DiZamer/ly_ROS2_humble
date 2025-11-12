@@ -1,0 +1,1 @@
+Invoking command in '/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /ROS2_humble/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces

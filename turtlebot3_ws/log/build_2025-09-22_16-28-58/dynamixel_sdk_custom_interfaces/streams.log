@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /ROS2_humble/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces
+[0.369s] -- The C compiler identification is GNU 11.4.0
+[0.369s] -- The CXX compiler identification is GNU 11.4.0
+[0.369s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.398s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.399s] -- Detecting C compile features - done
+[0.405s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.597s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.598s] -- Detecting CXX compile features
+[0.598s] -- Detecting CXX compile features - done
+[0.634s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.634s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.634s]   has asked CMake to find a package configuration file provided by
+[0.634s]   "ament_cmake", but CMake did not find one.
+[0.635s] 
+[0.635s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.635s]   any of the following names:
+[0.635s] 
+[0.635s]     ament_cmakeConfig.cmake
+[0.635s]     ament_cmake-config.cmake
+[0.635s] 
+[0.635s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.635s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.635s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.635s]   has been installed.
+[0.636s] 
+[0.636s] [0m
+[0.636s] -- Configuring incomplete, errors occurred!
+[0.636s] See also "/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/CMakeOutput.log".

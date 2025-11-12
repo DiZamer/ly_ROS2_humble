@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.000332] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000364] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict()}
+[0.000393] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.000420] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.000447] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.000472] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.000497] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.000530] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict([('turtlebot3_msgs', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs')])}
+[0.000558] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict([('dynamixel_sdk', '/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk'), ('turtlebot3_msgs', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs')])}
+[0.000587] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('dynamixel_sdk', '/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk'), ('turtlebot3_description', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_node', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_node')])}
+[0.000619] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('dynamixel_sdk', '/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk'), ('turtlebot3_cartographer', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_cartographer'), ('turtlebot3_description', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_description'), ('turtlebot3_msgs', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs'), ('turtlebot3_navigation2', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_navigation2'), ('turtlebot3_teleop', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_teleop'), ('turtlebot3_example', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_example'), ('turtlebot3_node', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_node'), ('turtlebot3_bringup', '/ROS2_humble/turtlebot3_ws/install/turtlebot3_bringup')])}
+[0.000662] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.006417] (turtlebot3_msgs) JobStarted: {'identifier': 'turtlebot3_msgs'}
+[0.007958] (turtlebot3_description) JobStarted: {'identifier': 'turtlebot3_description'}
+[0.010063] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.012090] (turtlebot3_cartographer) JobStarted: {'identifier': 'turtlebot3_cartographer'}
+[0.015000] (turtlebot3_navigation2) JobStarted: {'identifier': 'turtlebot3_navigation2'}
+[0.017895] (turtlebot3_teleop) JobStarted: {'identifier': 'turtlebot3_teleop'}
+[0.028292] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.028985] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '/ROS2_humble/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk'], 'cwd': '/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'matebook-dizamer'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk'), ('COLCON', '1')]), 'shell': False}
+[0.032759] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'cmake'}
+[0.034191] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '/ROS2_humble/turtlebot3_ws/src/turtlebot3_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs'], 'cwd': '/ROS2_humble/turtlebot3_ws/build/turtlebot3_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'matebook-dizamer'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ROS2_humble/turtlebot3_ws/build/turtlebot3_msgs'), ('COLCON', '1')]), 'shell': False}
+[0.037317] (turtlebot3_description) JobProgress: {'identifier': 'turtlebot3_description', 'progress': 'cmake'}
+[0.037365] (turtlebot3_description) Command: {'cmd': ['/usr/bin/cmake', '/ROS2_humble/turtlebot3_ws/src/turtlebot3/turtlebot3_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/turtlebot3_description'], 'cwd': '/ROS2_humble/turtlebot3_ws/build/turtlebot3_description', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'matebook-dizamer'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ROS2_humble/turtlebot3_ws/build/turtlebot3_description'), ('COLCON', '1')]), 'shell': False}
+[0.039635] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'cmake'}
+[0.039681] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/ROS2_humble/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces'], 'cwd': '/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'matebook-dizamer'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'), ('COLCON', '1')]), 'shell': False}
+[0.041141] (turtlebot3_cartographer) JobProgress: {'identifier': 'turtlebot3_cartographer', 'progress': 'cmake'}
+[0.041183] (turtlebot3_cartographer) Command: {'cmd': ['/usr/bin/cmake', '/ROS2_humble/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/turtlebot3_cartographer'], 'cwd': '/ROS2_humble/turtlebot3_ws/build/turtlebot3_cartographer', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'matebook-dizamer'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ROS2_humble/turtlebot3_ws/build/turtlebot3_cartographer'), ('COLCON', '1')]), 'shell': False}
+[0.044276] (turtlebot3_navigation2) JobProgress: {'identifier': 'turtlebot3_navigation2', 'progress': 'cmake'}
+[0.044649] (turtlebot3_navigation2) Command: {'cmd': ['/usr/bin/cmake', '/ROS2_humble/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ROS2_humble/turtlebot3_ws/install/turtlebot3_navigation2'], 'cwd': '/ROS2_humble/turtlebot3_ws/build/turtlebot3_navigation2', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'matebook-dizamer'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/ROS2_humble/turtlebot3_ws/build/turtlebot3_navigation2'), ('COLCON', '1')]), 'shell': False}
+[0.101832] (-) TimerEvent: {}
+[0.202365] (-) TimerEvent: {}
+[0.302870] (-) TimerEvent: {}
+[0.370991] (turtlebot3_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.372360] (turtlebot3_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.373289] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.373420] (dynamixel_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.376774] (dynamixel_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.378011] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.378259] (turtlebot3_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.378909] (turtlebot3_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.379042] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.379138] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.379387] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.379493] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.379590] (turtlebot3_cartographer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.379926] (turtlebot3_cartographer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.380408] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.380514] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.381199] (turtlebot3_navigation2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.381576] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.392346] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.393412] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401586] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.401969] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.402137] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.402327] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.402961] (-) TimerEvent: {}
+[0.406259] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.408524] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.409002] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.409590] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.409897] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.412015] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.414914] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.415301] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.415447] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.416047] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.421283] (turtlebot3_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.421613] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.421835] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.422110] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.423603] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.424414] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.424765] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.428938] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.431893] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.439964] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.460487] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.460783] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.461801] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.466878] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.503101] (-) TimerEvent: {}
+[0.540439] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.552010] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.562394] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.563147] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.563501] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.565784] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.566240] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.566405] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.567287] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.581847] (turtlebot3_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.582321] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.583337] (turtlebot3_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.585790] (turtlebot3_navigation2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.586076] (turtlebot3_navigation2) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.586394] (turtlebot3_navigation2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.586544] (turtlebot3_navigation2) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.586667] (turtlebot3_navigation2) StderrLine: {'line': b'\n'}
+[0.586816] (turtlebot3_navigation2) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.586937] (turtlebot3_navigation2) StderrLine: {'line': b'  any of the following names:\n'}
+[0.587056] (turtlebot3_navigation2) StderrLine: {'line': b'\n'}
+[0.587165] (turtlebot3_navigation2) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.587295] (turtlebot3_navigation2) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.587428] (turtlebot3_navigation2) StderrLine: {'line': b'\n'}
+[0.587548] (turtlebot3_navigation2) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.587669] (turtlebot3_navigation2) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.587823] (turtlebot3_navigation2) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.587956] (turtlebot3_navigation2) StderrLine: {'line': b'  has been installed.\n'}
+[0.588098] (turtlebot3_navigation2) StderrLine: {'line': b'\n'}
+[0.588224] (turtlebot3_navigation2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.588338] (turtlebot3_navigation2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.588474] (turtlebot3_navigation2) StdoutLine: {'line': b'See also "/ROS2_humble/turtlebot3_ws/build/turtlebot3_navigation2/CMakeFiles/CMakeOutput.log".\n'}
+[0.590157] (turtlebot3_navigation2) CommandEnded: {'returncode': 1}
+[0.592167] (turtlebot3_cartographer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.592630] (turtlebot3_cartographer) StdoutLine: {'line': b'See also "/ROS2_humble/turtlebot3_ws/build/turtlebot3_cartographer/CMakeFiles/CMakeOutput.log".\n'}
+[0.592765] (turtlebot3_cartographer) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.593133] (turtlebot3_cartographer) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.593229] (turtlebot3_cartographer) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.593310] (turtlebot3_cartographer) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.593396] (turtlebot3_cartographer) StderrLine: {'line': b'\n'}
+[0.593475] (turtlebot3_cartographer) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.593554] (turtlebot3_cartographer) StderrLine: {'line': b'  any of the following names:\n'}
+[0.593636] (turtlebot3_cartographer) StderrLine: {'line': b'\n'}
+[0.593843] (turtlebot3_cartographer) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.593950] (turtlebot3_cartographer) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.594147] (turtlebot3_cartographer) StderrLine: {'line': b'\n'}
+[0.594233] (turtlebot3_cartographer) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.594315] (turtlebot3_cartographer) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.594396] (turtlebot3_cartographer) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.594478] (turtlebot3_cartographer) StderrLine: {'line': b'  has been installed.\n'}
+[0.594557] (turtlebot3_cartographer) StderrLine: {'line': b'\n'}
+[0.594639] (turtlebot3_cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[0.594736] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.595313] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.596162] (turtlebot3_cartographer) CommandEnded: {'returncode': 1}
+[0.603237] (-) TimerEvent: {}
+[0.604117] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.606601] (turtlebot3_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.606963] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.607521] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.608069] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.608434] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.608753] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.612374] (turtlebot3_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[0.614501] (turtlebot3_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.615476] (turtlebot3_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.616422] (turtlebot3_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.616649] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.616865] (turtlebot3_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.617018] (turtlebot3_description) StderrLine: {'line': b'  any of the following names:\n'}
+[0.617156] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.617281] (turtlebot3_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.617409] (turtlebot3_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.617543] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.617788] (turtlebot3_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.617917] (turtlebot3_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.618035] (turtlebot3_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.618152] (turtlebot3_description) StderrLine: {'line': b'  has been installed.\n'}
+[0.618279] (turtlebot3_description) StderrLine: {'line': b'\n'}
+[0.618409] (turtlebot3_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.618537] (turtlebot3_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.619211] (turtlebot3_description) StdoutLine: {'line': b'See also "/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.619543] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.619777] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.619971] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.643449] (turtlebot3_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[0.643740] (turtlebot3_msgs) StderrLine: {'line': b'  By not providing "Findaction_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.643845] (turtlebot3_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.643929] (turtlebot3_msgs) StderrLine: {'line': b'  "action_msgs", but CMake did not find one.\n'}
+[0.644005] (turtlebot3_msgs) StderrLine: {'line': b'\n'}
+[0.644083] (turtlebot3_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "action_msgs" with\n'}
+[0.644164] (turtlebot3_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.644238] (turtlebot3_msgs) StderrLine: {'line': b'\n'}
+[0.644308] (turtlebot3_msgs) StderrLine: {'line': b'    action_msgsConfig.cmake\n'}
+[0.644377] (turtlebot3_msgs) StderrLine: {'line': b'    action_msgs-config.cmake\n'}
+[0.644451] (turtlebot3_msgs) StderrLine: {'line': b'\n'}
+[0.644522] (turtlebot3_msgs) StderrLine: {'line': b'  Add the installation prefix of "action_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.644589] (turtlebot3_msgs) StderrLine: {'line': b'  "action_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.644657] (turtlebot3_msgs) StderrLine: {'line': b'  "action_msgs" provides a separate development package or SDK, be sure it\n'}
+[0.644736] (turtlebot3_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.644809] (turtlebot3_msgs) StderrLine: {'line': b'\n'}
+[0.644876] (turtlebot3_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.644943] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.645035] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.645116] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.645189] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.645258] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\n'}
+[0.645327] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.645400] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.645472] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\n'}
+[0.645541] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.645610] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.645678] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\n'}
+[0.645755] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.645826] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.645895] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.645961] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.646027] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\n'}
+[0.646343] (dynamixel_sdk_custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.646636] (turtlebot3_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.646770] (turtlebot3_msgs) StdoutLine: {'line': b'See also "/ROS2_humble/turtlebot3_ws/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.646847] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.646927] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'See also "/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.646998] (dynamixel_sdk) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[0.647101] (dynamixel_sdk) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.647179] (dynamixel_sdk) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.647254] (dynamixel_sdk) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.647327] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[0.647396] (dynamixel_sdk) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.647466] (dynamixel_sdk) StderrLine: {'line': b'  any of the following names:\n'}
+[0.647535] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[0.647606] (dynamixel_sdk) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.647676] (dynamixel_sdk) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.647767] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[0.647840] (dynamixel_sdk) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.647914] (dynamixel_sdk) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.647987] (dynamixel_sdk) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.648061] (dynamixel_sdk) StderrLine: {'line': b'  has been installed.\n'}
+[0.648132] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[0.648203] (dynamixel_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[0.648273] (dynamixel_sdk) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.648354] (dynamixel_sdk) StdoutLine: {'line': b'See also "/ROS2_humble/turtlebot3_ws/build/dynamixel_sdk/CMakeFiles/CMakeOutput.log".\n'}
+[0.651907] (turtlebot3_navigation2) JobEnded: {'identifier': 'turtlebot3_navigation2', 'rc': 1}
+[0.655013] (turtlebot3_description) JobEnded: {'identifier': 'turtlebot3_description', 'rc': 'SIGINT'}
+[0.655527] (turtlebot3_msgs) JobEnded: {'identifier': 'turtlebot3_msgs', 'rc': 'SIGINT'}
+[0.655748] (turtlebot3_cartographer) JobEnded: {'identifier': 'turtlebot3_cartographer', 'rc': 'SIGINT'}
+[0.655943] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 'SIGINT'}
+[0.656141] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 'SIGINT'}
+[0.703363] (-) TimerEvent: {}
+[0.803874] (-) TimerEvent: {}
+[0.879557] (turtlebot3_teleop) JobEnded: {'identifier': 'turtlebot3_teleop', 'rc': 'SIGINT'}
+[0.890271] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[0.890501] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[0.890538] (turtlebot3_node) JobSkipped: {'identifier': 'turtlebot3_node'}
+[0.890556] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[0.890572] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[0.890587] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/package_run_dependencies/turtlebot3
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/parent_prefix_path/turtlebot3
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.sh
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/ament_prefix_path.dsv
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/path.sh
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/environment/path.dsv
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.bash
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.sh
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.zsh
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/local_setup.dsv
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.dsv
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/ament_index/resource_index/packages/turtlebot3
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config.cmake
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/cmake/turtlebot3Config-version.cmake
+/ROS2_humble/turtlebot3_ws/install/turtlebot3/share/turtlebot3/package.xml

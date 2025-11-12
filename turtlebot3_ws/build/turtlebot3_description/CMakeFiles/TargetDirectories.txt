@@ -1,0 +1,9 @@
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/uninstall.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/turtlebot3_description_uninstall.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/test.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/edit_cache.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/rebuild_cache.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/list_install_components.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/install.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/install/local.dir
+/ROS2_humble/turtlebot3_ws/build/turtlebot3_description/CMakeFiles/install/strip.dir

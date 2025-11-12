@@ -1,0 +1,1 @@
+/ROS2_humble/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_manipulation_gazebo/launch/fake.launch.py
