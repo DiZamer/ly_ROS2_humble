@@ -50,7 +50,10 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
 
+# 1.4. Запуск черепашки
 
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
 
 
 

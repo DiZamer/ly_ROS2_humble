@@ -1,0 +1,37 @@
+[0.919s] Invoking command in '/ly_ROS2_humble/ros2_ws/src/my_service_server': LD_LIBRARY_PATH=/ly_ROS2_humble/ros2_ws/install/my_service_interfaces/lib:/ly_ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs/lib:/ly_ROS2_humble/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/ly_ROS2_humble/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/ly_ROS2_humble/ros2_ws/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_server build --build-base /ly_ROS2_humble/ros2_ws/build/my_service_server/build install --record /ly_ROS2_humble/ros2_ws/build/my_service_server/install.log --single-version-externally-managed install_data
+[1.293s] running egg_info
+[1.294s] creating ../../build/my_service_server/my_service_server.egg-info
+[1.294s] writing ../../build/my_service_server/my_service_server.egg-info/PKG-INFO
+[1.294s] writing dependency_links to ../../build/my_service_server/my_service_server.egg-info/dependency_links.txt
+[1.295s] writing entry points to ../../build/my_service_server/my_service_server.egg-info/entry_points.txt
+[1.295s] writing requirements to ../../build/my_service_server/my_service_server.egg-info/requires.txt
+[1.295s] writing top-level names to ../../build/my_service_server/my_service_server.egg-info/top_level.txt
+[1.295s] writing manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[1.297s] reading manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[1.297s] writing manifest file '../../build/my_service_server/my_service_server.egg-info/SOURCES.txt'
+[1.297s] running build
+[1.298s] running build_py
+[1.298s] creating /ly_ROS2_humble/ros2_ws/build/my_service_server/build
+[1.298s] creating /ly_ROS2_humble/ros2_ws/build/my_service_server/build/lib
+[1.298s] creating /ly_ROS2_humble/ros2_ws/build/my_service_server/build/lib/my_service_server
+[1.298s] copying my_service_server/__init__.py -> /ly_ROS2_humble/ros2_ws/build/my_service_server/build/lib/my_service_server
+[1.298s] copying my_service_server/server_node.py -> /ly_ROS2_humble/ros2_ws/build/my_service_server/build/lib/my_service_server
+[1.298s] running install
+[1.298s] running install_lib
+[1.299s] creating /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages/my_service_server
+[1.299s] copying /ly_ROS2_humble/ros2_ws/build/my_service_server/build/lib/my_service_server/__init__.py -> /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages/my_service_server
+[1.300s] copying /ly_ROS2_humble/ros2_ws/build/my_service_server/build/lib/my_service_server/server_node.py -> /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages/my_service_server
+[1.300s] byte-compiling /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages/my_service_server/__init__.py to __init__.cpython-310.pyc
+[1.300s] byte-compiling /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages/my_service_server/server_node.py to server_node.cpython-310.pyc
+[1.301s] running install_data
+[1.301s] creating /ly_ROS2_humble/ros2_ws/install/my_service_server/share/ament_index
+[1.301s] creating /ly_ROS2_humble/ros2_ws/install/my_service_server/share/ament_index/resource_index
+[1.302s] creating /ly_ROS2_humble/ros2_ws/install/my_service_server/share/ament_index/resource_index/packages
+[1.302s] copying resource/my_service_server -> /ly_ROS2_humble/ros2_ws/install/my_service_server/share/ament_index/resource_index/packages
+[1.302s] copying package.xml -> /ly_ROS2_humble/ros2_ws/install/my_service_server/share/my_service_server
+[1.302s] running install_egg_info
+[1.304s] Copying ../../build/my_service_server/my_service_server.egg-info to /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages/my_service_server-0.0.0-py3.10.egg-info
+[1.305s] running install_scripts
+[1.335s] Installing velocity_server script to /ly_ROS2_humble/ros2_ws/install/my_service_server/lib/my_service_server
+[1.335s] writing list of installed files to '/ly_ROS2_humble/ros2_ws/build/my_service_server/install.log'
+[1.374s] Invoked command in '/ly_ROS2_humble/ros2_ws/src/my_service_server' returned '0': LD_LIBRARY_PATH=/ly_ROS2_humble/ros2_ws/install/my_service_interfaces/lib:/ly_ROS2_humble/turtlebot3_ws/install/turtlebot3_msgs/lib:/ly_ROS2_humble/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/ly_ROS2_humble/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/ly_ROS2_humble/ros2_ws/build/my_service_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ly_ROS2_humble/ros2_ws/install/my_service_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_service_server build --build-base /ly_ROS2_humble/ros2_ws/build/my_service_server/build install --record /ly_ROS2_humble/ros2_ws/build/my_service_server/install.log --single-version-externally-managed install_data

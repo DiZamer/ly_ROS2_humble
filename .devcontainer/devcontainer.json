@@ -21,7 +21,9 @@
         "ms-vscode.cpptools",
         "ms-vscode.cpptools-extension-pack",
         "DotJoshJohnson.xml",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "ms-iot.vscode-ros",
+        "Ranch-Hand-Robotics.rde-pack"
       ]
     }
   }

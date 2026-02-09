@@ -38,58 +38,65 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 ## ADD ANY CUSTOM SETUP BELOW ##
 ################################
 
-# # python3
+
+# --- Установка текстового редактора
+RUN sudo apt install gedit -y
+# RUN sudo apt install nano -y
+
+RUN sudo apt install tree -y
+
+# --- Установка python3
 # RUN sudo apt install software-properties-common -y
 # RUN sudo add-apt-repository ppa:deadsnakes/ppa -y
 # RUN sudo apt update
 # RUN sudo apt install python3.14 -y
 # RUN sudo apt install python3.11-pip -y
+RUN sudo apt install python3-pip -y
 
-# # Установка NetworkX
+# --- Установка NetworkX
 # RUN sudo pip install networkx[default]
 
-
-# Install Gazebo (https://gazebosim.org/docs/fortress/install_ubuntu/) or (https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
-
-# RUN sudo apt-get install ros-${ROS_DISTRO}-ros-gz -y
-# RUN sudo apt install ros-humble-gazebo-* -y
+# --- Install Gazebo (https://gazebosim.org/docs/fortress/install_ubuntu/) or (https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup)
+RUN sudo apt-get install ros-${ROS_DISTRO}-ros-gz -y
+RUN sudo apt install ros-${ROS_DISTRO}-gazebo-* -y
 RUN sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
 RUN echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list > /dev/null
 RUN sudo apt-get update -y
+# RUN sudo apt install ros-humble-gazebo-ros-pkgs -y
 RUN sudo apt-get install ignition-fortress -y
-RUN sudo apt install ros-humble-gazebo-ros-pkgs -y
+
+# --- Install Moveit
 RUN sudo apt install ros-humble-moveit -y
 
-# Source the ROS setup file
-RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
-
-# Install Cartographer
+# --- Install Cartographer
 RUN sudo apt install ros-humble-cartographer -y
 RUN sudo apt install ros-humble-cartographer-ros -y
 
-# Install navigation
+# --- Install Navigation2
 RUN sudo apt install ros-humble-navigation2 -y
 RUN sudo apt install ros-humble-nav2-bringup -y
 
 # Install the required TurtleBot3 Packages (https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 
-# Выполняется только при первой сборке (если папка turtlebot3_ws существует, то повторять выполнять не треубется):
-# 'ROS2_humble' - директрия с папкой .devcontainer
+# RUN sudo apt install ros-humble-turtlebot3  # иногда можно установить так просто
+
+## --- --- Выполняется только при первой сборке (если папка turtlebot3_ws существует, то повторять выполнять не треубется):
+# 'ly_ROS2_humble' - директрия с папкой .devcontainer
 # RUN bash -c 'source /opt/ros/humble/setup.bash'
-# RUN sudo mkdir -p /ROS2_humble/turtlebot3_ws/src
-# RUN cd /ROS2_humble/turtlebot3_ws/src/
+# RUN sudo mkdir -p /ly_ROS2_humble/turtlebot3_ws/src
+# RUN cd /ly_ROS2_humble/turtlebot3_ws/src/
 # RUN sudo git clone -b humble https://github.com/ROBOTIS-GIT/DynamixelSDK.git
 # RUN sudo git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 # RUN sudo git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3.git
 # RUN sudo apt install python3-colcon-common-extensions -y
-# RUN cd /ROS2_humble/turtlebot3_ws
+# RUN cd /ly_ROS2_humble/turtlebot3_ws
 # RUN colcon build --symlink-install
 
-# Выполняется при пересборке пакета rebuild:
-# # Setup your ROS environment
-RUN echo 'source /ROS2_humble/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
-RUN bash -c 'source ~/.bashrc'
+# --- --- Выполняется при пересборке пакета rebuild:
+# Устновка ROS окружения
+# RUN echo 'source /ly_ROS2_humble/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
+# RUN bash -c 'source ~/.bashrc'
 RUN echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
 RUN echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
-RUN echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
+# RUN echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 RUN bash -c 'source ~/.bashrc'
