@@ -1,0 +1,8 @@
+5:
+Coordinates: (1475, 677, 1663, 1111)
+0:
+Coordinates: (1808, 682, 1943, 920)
+Coordinates: (515, 895, 662, 1167)
+Coordinates: (753, 846, 904, 1127)
+3:
+Coordinates: (1041, 853, 1215, 1203)

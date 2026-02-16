@@ -53,6 +53,9 @@ RUN sudo apt install tree -y
 # RUN sudo apt install python3.11-pip -y
 RUN sudo apt install python3-pip -y
 
+RUN pip install ultralytics
+
+
 # --- Установка NetworkX
 # RUN sudo pip install networkx[default]
 

@@ -1,0 +1,32 @@
+board:
+Coordinates: (138, 0, 1027, 658)
+white_pawn:
+Coordinates: (716, 470, 793, 562)
+Coordinates: (824, 467, 906, 559)
+Coordinates: (177, 464, 263, 558)
+white_bishop:
+Coordinates: (391, 550, 468, 640)
+Coordinates: (616, 469, 690, 562)
+Coordinates: (723, 552, 805, 639)
+white_queen:
+Coordinates: (608, 533, 700, 644)
+Coordinates: (160, 537, 251, 642)
+Coordinates: (940, 546, 1029, 640)
+Coordinates: (500, 538, 585, 640)
+white_king:
+Coordinates: (278, 555, 361, 643)
+Coordinates: (940, 546, 1030, 640)
+black_bishop:
+Coordinates: (724, 552, 804, 639)
+Coordinates: (501, 468, 574, 561)
+white_rook:
+Coordinates: (833, 553, 918, 641)
+black_knight:
+Coordinates: (429, 177, 487, 244)
+Coordinates: (786, 168, 851, 242)
+Coordinates: (609, 174, 668, 242)
+Coordinates: (522, 178, 579, 240)
+Coordinates: (698, 171, 760, 238)
+black_king:
+Coordinates: (277, 553, 362, 643)
+Coordinates: (500, 537, 585, 641)

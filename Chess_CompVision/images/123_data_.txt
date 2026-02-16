@@ -1,0 +1,24 @@
+8:
+Coordinates: (345, 76, 404, 184)
+Coordinates: (782, 78, 841, 186)
+6:
+Coordinates: (344, 153, 398, 239)
+Coordinates: (430, 158, 486, 243)
+Coordinates: (523, 156, 578, 239)
+Coordinates: (703, 148, 758, 237)
+Coordinates: (792, 150, 849, 241)
+Coordinates: (610, 149, 668, 240)
+Coordinates: (883, 155, 940, 239)
+0:
+Coordinates: (504, 463, 567, 555)
+7:
+Coordinates: (255, 84, 316, 187)
+Coordinates: (868, 80, 933, 187)
+5:
+Coordinates: (606, 464, 703, 647)
+11:
+Coordinates: (602, 40, 673, 188)
+10:
+Coordinates: (516, 62, 583, 189)
+4:
+Coordinates: (391, 498, 467, 641)

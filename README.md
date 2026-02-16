@@ -1,33 +1,27 @@
-В сборке реализован на ROS2 Humble devcontainer с использованием моделей TurtleBot3. 
+В сборке установлен ROS2 Humble через devcontainer. 
 
-# 1. файлы в папке .devcontainers для сборки контейнера
-Может использоваться для создания среды ROS2 с описанием роботов, элементами и виртуальной средой для визуализации движения
+Особенности настройки и установки под windows и nixos описаны в папке setup.
 
-# 1.1. Вывод GUI из контейнера. Он необходим для работы gazebo, rviz2 или вывода изображения OpenCV
-1) wayland: открыть доступ к дисплею через терминал хоста `xhost +local:` и сделать rebuild контейнера, если вывода нет
-2) если предыдущий не сработал, сделать следующее:
-    - в devcontainers.json раскоментировать 
-        ``` json       
-        , 
-        "features": {
-        "ghcr.io/devcontainers/features/desktop-lite:1": {}
-        },
-        "forwardPorts": [6080, 5901],
-        "portsAttributes": {
-        "6080": {
-            "label": "Desktop (Web)"
-        },
-        "5901": {
-            "label": "Desktop (VNC)"
-        }
-        }
-        ```
-    - закоментирвоать `--network=host`
+Папка turtlebot3_ws создержит установленного робота TurtleBot3.
+# 1. Структура проекта
+
+# 1.1. ros2_ws
+``` Проект "ИНТЕРАКТИВНЫЙ РОБОТ-МАНИПУЛЯТОР СО ВСТРОЕННЫМ ШАХМАТНЫМ ДВИЖКОМ" ```
+
+# 1.2. Chess_CompVision
 
 
-# 1.2. Подготовка среды ROS2 (не обязательно): установка, пересборка контейнера и настройка вывода GUI 
+# 2. Справочные команды для быстрого запуска
 
-# 1.3. Запуск gazebo с эмуляцией готовых роботов TurtleBot3
+# 2.1. Вывод GUI из контейнера. Он необходим для работы gazebo, rviz2 или вывода изображения OpenCV
+wayland: открыть доступ к дисплею через терминал хоста `xhost +local:` и сделать rebuild контейнера, если вывода нет
+
+# 2.2. Справочные команды для черепашки
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+
+# 2.3. Справочные команды для запуска TurtleBot3
 ```Документация к TurtleBot3: https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/```
 
 Робот в пустом пространстве
@@ -49,12 +43,3 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
-
-# 1.4. Запуск черепашки
-
-ros2 run turtlesim turtlesim_node
-ros2 run turtlesim turtle_teleop_key
-
-
-
- 

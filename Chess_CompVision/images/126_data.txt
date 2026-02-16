@@ -1,0 +1,13 @@
+3:
+Coordinates: (529, 217, 604, 287)
+Coordinates: (530, 373, 604, 445)
+Coordinates: (529, 533, 604, 604)
+Coordinates: (529, 135, 605, 211)
+10:
+Coordinates: (129, 132, 216, 214)
+Coordinates: (134, 292, 209, 365)
+9:
+Coordinates: (134, 377, 203, 443)
+Coordinates: (135, 220, 202, 285)
+11:
+Coordinates: (30, 615, 124, 710)

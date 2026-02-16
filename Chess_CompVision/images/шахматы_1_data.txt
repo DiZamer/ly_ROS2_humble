@@ -1,0 +1,19 @@
+board:
+Coordinates: (208, 0, 1591, 954)
+black_pawn:
+Coordinates: (1201, 596, 1327, 737)
+black_queen:
+Coordinates: (643, 716, 799, 903)
+Coordinates: (1226, 713, 1376, 901)
+Coordinates: (1028, 752, 1160, 903)
+Coordinates: (830, 747, 971, 903)
+Coordinates: (1031, 602, 1161, 765)
+white_queen:
+Coordinates: (836, 635, 967, 776)
+Coordinates: (642, 719, 800, 902)
+Coordinates: (231, 729, 418, 920)
+black_bishop:
+Coordinates: (1029, 600, 1166, 762)
+Coordinates: (516, 600, 664, 748)
+black_king:
+Coordinates: (1031, 602, 1162, 764)

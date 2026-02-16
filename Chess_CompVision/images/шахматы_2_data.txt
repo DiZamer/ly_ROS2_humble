@@ -1,0 +1,13 @@
+7:
+Coordinates: (573, 84, 657, 220)
+0:
+Coordinates: (1210, 577, 1306, 732)
+Coordinates: (922, 173, 998, 290)
+Coordinates: (1034, 170, 1112, 291)
+Coordinates: (899, 594, 993, 736)
+11:
+Coordinates: (1038, 16, 1124, 224)
+8:
+Coordinates: (702, 75, 781, 222)
+9:
+Coordinates: (798, 69, 866, 213)

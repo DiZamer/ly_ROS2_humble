@@ -1,0 +1,28 @@
+1) Даём разрешение на доступ к графической системе (X11)
+   nix-shell -p xorg.xhost --run "xhost +local:"
+
+2) Переходим в директорию выше (ly_ROS2_humble) и открываем проект в VScode
+   cd ~/projects/ly_ROS2_humble/
+   code .
+
+3) Дождаться появления в правом нижнем углу плашки "Reopen in devcontainer" и нажать на неё
+
+4) Дождаться поднятия проекта
+
+-----------------------------------------------------------------------------------------------------------------
+ВСЕ последующие команды выполняются в контейнере:
+
+5) Указываем какой дисплей использовать для графики и принудительно используем программную отрисовку вместо аппаратного ускорения, а также исправляем права
+   export DISPLAY=:0
+   export LIBGL_ALWAYS_SOFTWARE=1
+   sudo chown -R ubuntu:ubuntu /ly_ROS2_humble/
+
+6) Собрать проект
+   cd /ly_ROS2_humble/
+   source /opt/ros/humble/setup.bash
+   colcon build --symlink-install
+
+7) Активировать и запустить проект
+   source install/setup.bash
+   export TURTLEBOT3_MODEL=waffle_pi
+   ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
