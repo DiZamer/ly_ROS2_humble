@@ -8,7 +8,7 @@ import os
 
 # Загрузка модели YOLOv8
 # model = YOLO('best.pt')  # https://huggingface.co/yamero999/chess-piece-detection-yolo11n
-model = YOLO('yolov8n.pt')
+model = YOLO('best.pt')
 
 # model = YOLO('chesspiece-detection-model.pt')  # https://huggingface.co/acapitani/chesspiece-detection-yolo
 

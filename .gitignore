@@ -1,1 +1,6 @@
 temp/
+.vscode/
+.vscode/browse.vc.db.vscode/browse.vc.db
+*.vc.db
+*.vc.db-wal
+*.vc.db-shm
